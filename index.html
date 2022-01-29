@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" preload />
+</head>
+
+<body>
+  <!-- Comienzo Header -->
+  <header>
+    <nav id="primary-nav" class="nav">
+      <!-- Menú de navegación -->
+      <ul class="nav-bar end">
+        <li class="nav-item">
+          <a href="#about" class="btn">HOLA</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="btn">CONOCIMIENTOS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="btn">PROYECTOS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="btn-selected">CONTACTAME</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Fin menú de navegación -->
+
+  <main>
+    <!-- Inicio Sección Bienvenida -->
+    <section class="main-content" id="about">
+      <div class="column main-info">
+        <p class="hello">¡Hola! Soy</p>
+        <h1 class="name">Mónica Pajón</h1>
+        <p class="job">Desarrolladora Front-End</p>
+        <a href="#projects" class="btn-selected">LO QUE HAGO</a>
+      </div>
+      <div class="column main-img">
+        <img src="./assets/img/developer.svg" alt="developer" class="about-img" />
+      </div>
+    </section>
+    <!-- Fin Sección Bienvenida -->
+    <!-- Inicio Sección Conocimientos -->
+
+    <section class="section skills-section" id="skills">
+      <div class="column content">
+        <h2 class="section-legend">Mis<br />conocimientos</h2>
+        <p class="skills-report">
+          Estudié en "UTN BA" Full Stack Developer y Ciencia de Datos en "ISPC Córdoba" me especialicé en Desarrollo Front End en "Ada ITW", trabajo con HTML5, CSS, JS, React, ECMAScript, Angular, Node JS, Mysql, Visual Studio Code, Metodología Scrum, Git, GitHub, entre otras.- 
+        </p>
+        <div class="card skills-card">
+          <div class="skill">
+            <i class="devicon-html5-plain colored skill-icon"></i>
+            <p>HTML 5</p>
+          </div>
+          <div class="skill">
+            <i class="devicon-css3-plain colored skill-icon"></i>
+            <p>CSS 3</p>
+          </div>
+          <div class="skill">
+            <i class="devicon-sass-plain colored skill-icon"></i>
+            <p>Sass</p>
+          </div>
+          <div class="skill">
+            <i class="devicon-javascript-plain colored skill-icon"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="skill">
+            <i class="devicon-react-plain colored skill-icon"></i>
+            <p>React</p>
+          </div>
+          <div class="skill">
+            <i class="devicon-git-plain colored skill-icon"></i>
+            <p>GIT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin sección Conocimientos -->
+    <!-- Inicio sección Proyectos -->
+    <section class="section phrase-section">
+      <div class="column content">
+        <i class="fas fa-quote-right phrase-icon"></i>
+
+        <blockquote>
+          <p class="phrase">
+            "La mejor forma de predecir el futuro es implementarlo"
+          </p>
+        </blockquote>
+        <h2 class="phrase-author">David Heinmeier Hansson</h2>
+      </div>
+    </section>
+
+    <section class="section project-section" id="projects">
+      <div class="column content">
+        <h2 class="section-legend">Mis proyectos</h2>
+        <p class="section-report">
+          Aquí están mis primeros proyectos como Front End Developer :)
+        </p>
+        <!--  Projectos -->
+        <div class="card projects">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="html-css">
+            <img src="./assets/img/captura de pantalla 2022.png" alt="captura-de-pantalla" class="project-thumb" />
+            <p>Portfolio</p>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="web-page">
+            <img src="./assets/img/Proyecto 2022.png" alt="proyecto-2022" class="project-thumb" />
+            <p>Mis páginas<br />Web</p>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="javascript">
+            <img src="./assets/img/undraw_mobile_user_7oqo.png" alt="generador-de-memes" class="project-thumb" />
+            <p>Generador de memes</p>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="javascript">
+            <img src="./assets/img/undraw_old_day_6x25.png" alt="match-3" class="project-thumb" />
+            <p>Match 3</p>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="javascript">
+            <img src="./assets/img/undraw_wallet_aym5.png" alt="controlador-de-gastos" class="project-thumb" />
+            <p>Controlador de gastos</p>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="javascript">
+            <img src="./assets/img/undraw_Calendar_re_ki49.png" alt="administrador-de-reuniones"
+              class="project-thumb" />
+            <p>Administrador de reuniones</p>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="react">
+            <img src="./assets/img/undraw_Home_screen_re_640d.png" alt="todo-app" class="project-thumb" />
+            <p>Todo app</p>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="react">
+            <img src="./assets/img/undraw_netflix_q00o.png" alt="buscador-de-peliculas" class="project-thumb" />
+            <p>Buscador de películas</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Fin sección Proyectos -->
+    <!-- Inicio sección Contacto -->
+    <section class="section contact-section" id="contact">
+      <div class="column">
+        <div class="contact">
+          <section class="contact-column">
+            <h2 class="section-legend">Contactame</h2>
+            <p class="section-report">
+              Puedes comunicarte conmigo a través de éstas Redes Sociales: 
+            </p>
+
+            <section aria-label="Links de redes sociales">
+              <ul class="contact-social-links">
+                <li class="contact-social-item">
+                  <a href="https://twitter.com/monicapajon49" target="_blank" class="contact-social-link twitter-link"
+                    aria-label="Twitter">
+                    <i aria-hidden="true" class="fab fa-twitter contact-social-icon"></i>@monicapajon49</a>
+                </li>
+                <li class="contact-social-item">
+                  <a href="https://github.com/monicapajon?tab=repositories" class="contact-social-link github-link" target="_blank" aria-label="Github">
+                    <i aria-hidden="true" class="fab fa-github-alt contact-social-icon"></i>Mónica Pajón</a>
+                </li>
+                <li class="contact-social-item">
+                  <a href="https://www.linkedin.com/in/monica-pajon-901a99215/"
+                    class="contact-social-link linkedin-link" target="_blank" aria-label="Linkedin">
+                    <i aria-hidden="true" class="fab fa-linkedin-in contact-social-icon"></i>Mónica Pajón</a>
+                </li>
+                <li class="contact-social-item">
+                  <a href="mailto:monicapajon49@gmail.com" target="_blank" class="contact-social-link email-link"
+                    aria-label="Email">
+                    <i aria-hidden="true" class="fas fa-envelope contact-social-icon"></i>monicapajon49@gmail.com</a>
+                </li>
+              </ul>
+            </section>
+          </section>
+          <!-- Fin sección Contacto -->
+
+          <!-- Inicio sección "Escribime" (Formulario) -->
+          <section class="contact-column">
+            <h2 class="section-legend">Escribime</h2>
+            <form action="" method="POST" class="contact-form">
+              <div class="input-name-wrapper">
+                <div class="form-control">
+                  <label for="firstname">Nombre *</label>
+                  <input type="text" name="Nombre" id="firtsname" class="input-firtsname input-control"
+                    placeholder="Por ej: Michael" aria-label="Nombre" required />
+                </div>
+                <div class="form-control">
+                  <label for="lastname">Apellido *</label>
+                  <input type="text" name="Apellido" id="lastname" class="input-lastname input-control"
+                    placeholder="p. ej.: Angel" aria-label="Apellido" required />
+                </div>
+              </div>
+              <div class="form-control">
+                <label for="email">Email *</label>
+                <input type="email" name="Email" id="email" class="input-control"
+                  placeholder="p. ej.: john.smith@gmail.com" aria-label="Email" required />
+              </div>
+              <div class="form-control">
+                <label for="message">Mensaje *</label>
+                <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control"
+                  placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required></textarea>
+              </div>
+
+              <button type="submit" class="btn-selected">Enviar</button>
+            </form>
+          </section>
+          <!-- Fin sección "Escribime" -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Inicio Footer -->
+
+  <footer>
+    <!-- Navegación footer -->
+    <nav class="footer-nav">
+      <ul class="footer-nav-menu">
+        <li class="footer-nav-item">
+          <a href="#about" class="footer-nav-link">HOLA</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#skills" class="footer-nav-link">CONOCIMIENTOS</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#projects" class="footer-nav-link">PROYECTOS</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="#contact" class="footer-nav-link">CONTACTO</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navegación footer -->
+    <ul class="footer-social-links">
+      <li class="footer-social-item">
+        <a href="https://twitter.com/monicapajon49" target="_blank" class="footer-social-link twitter-link"
+          aria-label="Twitter">
+          <i class="fab fa-twitter footer-social-icon"></i></a>
+      </li>
+      <li class="footer-social-item">
+        <a href="https://github.com/monicapajon?tab=repositories" target="_blank" class="footer-social-link github-link" aria-label="Github">
+          <i class="fab fa-github-alt footer-social-icon"></i></a>
+      </li>
+      <li class="footer-social-item">
+        <a href="https://www.linkedin.com/in/monica-pajon-901a99215/" target="_blank"
+          class="footer-social-link linkedin-link" aria-label="Linkedin">
+          <i class="fab fa-linkedin-in footer-social-icon"></i></a>
+      </li>
+      <li class="footer-social-item">
+        <a href="mailto:monicapajon49@gmail.com" target="_blank" class="footer-social-link email-link" aria-label="Email">
+          <i class="fas fa-envelope footer-social-icon"></i></a>
+      </li>
+    </ul>
+    Hecho con ❤️ por Mónica Pajón
+  </footer>
+  <!-- Fin Footer -->
+</body>
+
+</html>
